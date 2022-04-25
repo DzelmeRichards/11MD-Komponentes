@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import './VegetableListFirst.scss';
 import React, { FC } from 'react'; // functional componente
 import { Vegetable } from '../../../types';
