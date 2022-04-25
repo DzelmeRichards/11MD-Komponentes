@@ -1,0 +1,20 @@
+.vegetable-card {
+  border-radius: 20px;
+  width: 180px;
+  padding: 20px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.vegetable-card__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.vegetable-card__bottom {
+  padding: 10px;
+}

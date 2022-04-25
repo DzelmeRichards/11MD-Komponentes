@@ -1,0 +1,12 @@
+.task {
+    width: 110px;
+    background-color: beige;
+    white-space: nowrap;
+    padding: 10px 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    &--done {
+        text-decoration: line-through;
+    }
+}
