@@ -18,6 +18,7 @@ const VegetableListFirst: FC<VegetableProps> = ({ vegetables }) => (
           id={vegetable.id}
           description={vegetable.description}
           title={vegetable.title}
+          clickHandler={() => { console.log(`Card ID: ${vegetable.id}`); }}
         />
 
       </div>

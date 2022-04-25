@@ -10,4 +10,5 @@ export type Vegetable = {
     description: string,
     backgroundColor: string,
     available: boolean,
+    clickHandler?: () => void,
 }
